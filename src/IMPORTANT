@@ -1,0 +1,16 @@
+div[id='user-message'] > label
+id si user-message olan DIV in çocuklarından label olan
+
+div[id='user-message'] > label + span
+id si user-message olan DIV in çocuklarından label dan hemen sonraki
+span
+
+div[id='user-message'] > span   yukarıdaki ile aynı
+
+[id='get-input'] input
+id si get-input olan elemanın bütün cocuklarındaki ilk input olan
+>     -> cocuklarda arar
+space -> tüm cocuklarda(torunlar dahil) arar
++     -> bitişik kardeş i bulur
+~     -> tüm kardeşlerde ara
+[id='user-message'] > *   cocukların hepsi(torunlar yok)
